@@ -20,18 +20,20 @@
     background: linear-gradient(
       180deg,
       transparent 0%,
-       #020617 100%
-    );
+      #020617 100%
+      );
+    }
+
+    figcaption{
+      position: absolute;
+      bottom: 0;
+      padding: 24px;
+
+      h2{
+        margin-top: 8px;
+      }
+    }
+  }
     
- 
-}
 
-section2#top-10{
-  border: solid 1px  var(--stroke-color);
-  border-inline:none ;
-  border-bottom: none;
-  padding-top: 12px;
-
-} 
-}
 }
