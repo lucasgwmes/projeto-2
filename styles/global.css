@@ -30,6 +30,12 @@
   margin-inline: auto;
 }
 
+.pageGap {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+}
+
 body{
   font: var(--text);
   color: var(--text-color-primary);
@@ -52,7 +58,9 @@ a{
  }
  main {
   margin-top: 40px;
+  gap: 80px;
  }
+
 
 .content-tag{
   display: inline-block;
