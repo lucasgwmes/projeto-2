@@ -1,4 +1,6 @@
 #featured{
+  grid-area: featured;
+  padding-top: 40px;
   padding-bottom: 80px;
 
   img{
@@ -43,6 +45,7 @@ section header {
   border-top: solid 1px var(--stroke-color);
   padding-block: 12px 24px;
   font: var(--txt-span);
+  font: var(--text-color-secondary);
 
   a {
     justify-self: end;
@@ -60,7 +63,8 @@ section header {
   }
 }
 #weekly {
-
+max-width: 1280px;
+overflow: hidden;
   
   &>div{
     grid-template-columns: repeat(4, 292px);
@@ -82,5 +86,55 @@ section header {
       margin-top: 8px;
       font-weight: 800;
     }
+  }
+}
+
+#ai {
+  overflow: hidden;
+ p{
+  color: var(--text-color-secondary);
+ }
+ h3 {
+   margin-block: 8px 4px; 
+  }
+}
+aside{
+  grid-area: aside;
+}
+#Destaques{
+  display: flex;
+  max-width: 1280px;
+  padding-bottom: 40px;
+  gap:32px;
+  
+  .adjusting{
+    overflow: hidden;
+    max-width: 696px;
+   
+    img {
+      width: 176px;
+      height: 176px;
+      object-fit: cover;
+    }
+  }
+  
+}
+#ads{
+  overflow: hidden;
+  border-radius: 4px;
+  margin-bottom: 32px;
+  width: 488px;
+  height: 280px;
+  object-fit: cover;
+}
+#more {
+  height: 800px;
+  header{
+    padding-block: 12px 24px;
+  }
+  img{
+    width: 72px;
+    aspect-ratio: 1/1;
+    object-fit: cover;
   }
 }
